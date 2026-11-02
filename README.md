@@ -19,7 +19,7 @@ Built from **6,803 posts + 25,500 comments** across 17 demand subreddits (r/Some
 
 **Remote (no install):**
 ```jsonc
-{ "mcpServers": { "demand-radar": { "serverUrl": "https://demand-radar.onrender.com/mcp" } } }
+{ "mcpServers": { "demand-radar": { "serverUrl": "https://demand-radar-gpym.onrender.com/mcp" } } }
 ```
 
 **Local (stdio):**

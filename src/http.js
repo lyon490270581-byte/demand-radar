@@ -20,7 +20,7 @@ a{color:#58a6ff}</style></head><body><div class="w">
 <li><b>market_prices</b> - median/range rates by unit (per script, per hour...)</li>
 <li><b>weekly_trends</b> - demand-intent density time series</li>
 </ul>
-<h2>Connect</h2><div class="pre">URL: https://demand-radar.onrender.com/mcp</div>
+<h2>Connect</h2><div class="pre">URL: https://demand-radar-gpym.onrender.com/mcp</div>
 Or run locally: <code>npx -y demand-radar-mcp</code>
 <h2>Source</h2>
 Data: 17 demand subreddits (r/SomebodyMakeThis, r/forhire, r/Entrepreneur...) via Arctic Shift research API, Aug-Nov 2026.<br>
