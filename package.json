@@ -1,0 +1,21 @@
+{
+  "name": "demand-radar-mcp",
+  "version": "0.1.0",
+  "description": "Reddit demand intelligence MCP: 6.8k posts + 3.6k demand comments + 550 hiring orders with prices from 17 niche subreddits. Find what people wish existed, what they'd pay for, and current market rates.",
+  "type": "module",
+  "main": "bin/server.js",
+  "bin": {
+    "demand-radar-mcp": "bin/server.js"
+  },
+  "files": ["bin/", "data/", "README.md"],
+  "scripts": {
+    "start": "node src/http.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "express": "^4.21.0",
+    "zod": "^3.24.0"
+  },
+  "keywords": ["mcp", "reddit", "demand", "market-research", "freelance", "pricing", "startup-ideas"],
+  "license": "MIT"
+}
